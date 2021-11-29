@@ -10,5 +10,10 @@
     android:id="@+id/del_msg"
     android:title="Deleted Message"
     app:showAsAction="never" />
+    <item
+        android:id="@+id/close_msg"
+        android:title="Close Message"
+        app:showAsAction="never" />
+
 
 </menu>

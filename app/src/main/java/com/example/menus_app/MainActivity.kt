@@ -28,10 +28,16 @@ class MainActivity : AppCompatActivity() {
                 Snackbar.make(clMain, "New Chat", Snackbar.LENGTH_SHORT).show()
                 return true
             }
+            R.id.close_msg -> {
+                Snackbar.make(clMain, "Chat closed successfully", Snackbar.LENGTH_SHORT).show()
+                return true
+            }
             R.id.del_msg -> {
+
                 Snackbar.make(clMain, "Deleted Successfully", Snackbar.LENGTH_SHORT).show()
                 return true
             }
+
 
         }
         return super.onOptionsItemSelected(item)
