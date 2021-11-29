@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+    android:id="@+id/create_msg"
+    android:title="Create New Message"
+    app:showAsAction="never" />
+
+<item
+    android:id="@+id/del_msg"
+    android:title="Deleted Message"
+    app:showAsAction="never" />
+
+</menu>
